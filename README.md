@@ -12,9 +12,9 @@ We also provide the formulations for the parallel machine scheduling problem tes
 > **DOI:** [10.1016/j.compchemeng.2024.108649](https://doi.org/10.1016/j.compchemeng.2024.108649)
 
 ## Shared files
-- **instance**: Instance struct, containing parameters of the instance problem.
-- **param**: Parameter struct, defining how to execute the model.
-- **variable_condition**: Variable condition struct, defining how the general condition of variables in the model was established.
+- **instance**: Instance struct containing parameters of the parallel machine instance.
+- **param**: Parameter struct defining how to execute the model.
+- **variable_condition**: Variable condition struct defining a generic structure for variable creation conditions
 - **create_variable_condition**: Functions to create the variable condition, dependent on models.
 - **deterministic_models**: Functions to construct deterministic models.
 - **auxiliary_functions**: Auxiliary functions.
